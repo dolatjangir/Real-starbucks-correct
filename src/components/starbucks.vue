@@ -92,11 +92,11 @@
         <h1 class="font-bold text-3xl text-center ">Get your favorites for free</h1>
     </div>
     <div class="flex justify-center xl:mx-[114px] items-start bg-[#f1f8f6]">
-      <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider transition-all" :class="isnumberborder ==='25' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('25')">25<span class="text-orange-700">★</span></button>
-      <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all":class="isnumberborder ==='100' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('100')">100<span class="text-orange-700 ">★</span></button>
-        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4  xl:px-4 tracking-wider  transition-all":class="isnumberborder ==='200' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('200')">200<span class="text-orange-700">★</span></button>
-        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all":class="isnumberborder ==='300' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('300')">300<span class="text-orange-700">★</span></button>
-        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all":class="isnumberborder ==='400' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('400')">400<span class="text-orange-700">★</span></button>
+        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider transition-all" :class="isnumberborder ==='25' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('25')">25<span class="text-orange-700">★</span></button>
+        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all" :class="isnumberborder ==='100' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('100')">100<span class="text-orange-700 ">★</span></button>
+        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4  xl:px-4 tracking-wider  transition-all" :class="isnumberborder ==='200' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('200')">200<span class="text-orange-700">★</span></button>
+        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all" :class="isnumberborder ==='300' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('300')">300<span class="text-orange-700">★</span></button>
+        <button class="font-bold text-xl xl:text-2xl sm:px-1 sm:pt-2 sm:pb-4 xl:px-4 tracking-wider  transition-all" :class="isnumberborder ==='400' ? 'border-b-8 border-[#008248]':''" @click="setisnumberborder('400')">400<span class="text-orange-700">★</span></button>
     </div>
     <div class="bg-[#d4e9e2] sm:pb-[48px] flex sm:flex-col justify-center items-center xl:flex-row xl:py-[32px]">
         <div class="sm:py-[32px]">
@@ -108,52 +108,178 @@
         </div>
     </div>
 </div>
-<!-- page-5 -->
-<div class="py-8 px-4 w-screen">
+<!-- page-6 -->
+<div class="py-8 xl:py-16 xl:px-6 px-4 w-screen">
     <div class="flex justify-center flex-col items-center">
-        <h2 class="sm:font-semibold sm:text-xl text-center xl:text-3xl]">Endless Extras</h2>
-        <p class=" font-semibold sm:pt-3 text-center xl:w-[480px] 2xl:w-[472px] 3xl:w-[680px]">Joining Starbucks® Rewards means unlocking access to benefits like quick and easy ordering, tasty Rewards and—yes, free coffee.</p>
+        <h2 class="sm:font-semibold sm:text-xl text-center xl:text-3xl">Endless Extras</h2>
+        <p class=" font-semibold sm:pt-3 text-center xl:text-lg xl:w-[480px] 2xl:w-[472px] 3xl:w-[680px]">Joining Starbucks® Rewards means unlocking access to benefits like quick and easy ordering, tasty Rewards and—yes, free coffee.</p>
     </div>
-    <!-- page-5-part-2-- -->
-     <div class="flex sm:flex-col xl:flex-row xl:mx-[38.4px] xl:justify-center">
-    <!-- page-5-part-2-me-1-diba -->
-    <div class="sm:pt-12 flex xl:flex-col items-start justify-center pb-8 xl:mr-6 ">
-        <div class=" sm:w-[128px] ">
-            <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" />
-        </div>
-        <div class="sm:w-[160px]  md:w-[200px] lg:w-[250px] xl:w-[182.4px] 2xl:w-[248px] 3xl:w-[373.3px]">
-            <h1 class="text-lg font-semibold pb-1">Fun freebies</h1>
-            <p class="pt-3 font-semibold  text-wrap">Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
-            <button class="my-3 text-[#008248] underline">Learn more</button>
-        </div>
+    <!-- page-6-part-2-- -->
+    <div class="flex sm:flex-col xl:flex-row xl:mx-[38.4px] xl:justify-center">
+        <!-- page-6-part-2-me-1-diba -->
+        <div class="sm:pt-12 flex xl:flex-col items-start justify-center pb-8 xl:mr-6 ">
+            <div class=" sm:w-[128px] ">
+                <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" />
+            </div>
+            <div class="sm:w-[160px]  md:w-[200px] lg:w-[250px] xl:w-[182.4px] 2xl:w-[248px] 3xl:w-[373.3px]">
+                <h1 class="text-lg font-semibold pb-1">Fun freebies</h1>
+                <p class="pt-3 font-semibold  text-wrap">Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
+                <button class="my-3 text-[#008248] underline">Learn more</button>
+            </div>
 
-    </div>
-     <!-- page-5-part-2-me-2-diba -->
-     <div class="sm:pb-8 flex xl:flex-col items-start justify-center  xl:mx-6  ">
-        <div class=" sm:w-[128px] ">
-            <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" />
         </div>
-        <div class="sm:w-[160px] md:w-[200px] lg:w-[250px]  xl:w-[182.4px] 2xl:w-[248px]  3xl:w-[373.3px]">
-            <h1 class="text-lg font-semibold pb-1">Order & pay ahead</h1>
-            <p class="pt-3 font-semibold text-wrap">Master the art of ordering ahead with saved favorites and payment methods.</p>
-            <button class="my-3 text-[#008248] underline">Learn more</button>
-        </div>
+        <!-- page-6-part-2-me-2-diba -->
+        <div class="sm:pb-8 flex xl:flex-col items-start justify-center  xl:mx-6  ">
+            <div class=" sm:w-[128px] ">
+                <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" />
+            </div>
+            <div class="sm:w-[160px] md:w-[200px] lg:w-[250px]  xl:w-[182.4px] 2xl:w-[248px]  3xl:w-[373.3px]">
+                <h1 class="text-lg font-semibold pb-1">Order & pay ahead</h1>
+                <p class="pt-3 font-semibold text-wrap">Master the art of ordering ahead with saved favorites and payment methods.</p>
+                <button class="my-3 text-[#008248] underline">Learn more</button>
+            </div>
 
-    </div>
-     <!-- page-5-part-2-me-3-diba -->
-     <div class=" flex items-start xl:flex-col justify-center sm:pb-8  xl:ml-6">
-        <div class=" sm:w-[128px]">
-            <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" />
         </div>
-        <div class="sm:w-[160px]  md:w-[200px] lg:w-[250px] xl:w-[182.4px] 2xl:w-[248px]  3xl:w-[373.3px]">
-            <h1 class="text-lg font-semibold pb-1 ">Get to free faster</h1>
-            <p class="pt-3 font-semibold text-wrap">Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
-            <button class="my-3 text-[#008248] underline">Learn more</button>
-        </div>
+        <!-- page-6-part-2-me-3-diba -->
+        <div class=" flex items-start xl:flex-col justify-center sm:pb-8  xl:ml-6">
+            <div class=" sm:w-[128px]">
+                <img class="sm:w-[112px] sm:pr-3 xl:pb-[24px]" src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" />
+            </div>
+            <div class="sm:w-[160px]  md:w-[200px] lg:w-[250px] xl:w-[182.4px] 2xl:w-[248px]  3xl:w-[373.3px]">
+                <h1 class="text-lg font-semibold pb-1 ">Get to free faster</h1>
+                <p class="pt-3 font-semibold text-wrap">Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
+                <button class="my-3 text-[#008248] underline">Learn more</button>
+            </div>
 
+        </div>
     </div>
-  </div>
-    
+
+</div>
+<!-- page-7 -->
+<div class="pt-16 bg-[#f3f1e7] px-6 py-12">
+    <div class="text-center pb-12 mb-4">
+        <div class="flex justify-center flex-col items-center">
+            <h1 class="font-bold pt-6 pb-4 sm:text-xl">Cash or card, you earn Stars</h1>
+            <p class=" xl:w-[480px] 3xl:w-[680px]">No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p>
+        </div>
+    </div>
+    <!-- 1 star -->
+    <div class="2xl:flex 2xl:flex-row  2xl:justify-center 2xl:items-center pb-9">
+        <div class=" pb-8 ">
+            <h4 class="font-bold text-lg xl:text-xl tracking-wide ">1<span class="text-black text-sm xl:text-2xl">★</span><span class="text-lg xl:text-2xl">per dollar</span></h4>
+            <p>Pay as you go</p>
+        </div>
+        <div class="xl:flex xl:flex-row xl:justify-center">
+            <!-- page-6part-1 -->
+            <div class="flex flex-row">
+                <div class="img-section  flex items-start sm:w-[136px] ">
+                    <img class="sm:w-[112px] sm:h-[158px]  " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/1A.png" />
+                </div>
+                <div class="pl-4">
+                    <h2 class="text-lg font-semibold pt-1">Scan and pay separately</h2>
+                    <p class="pt-4 sm:w-[136px] md:w-[170px] lg:w-[220px]">Use cash or credit/debit card at the register.</p>
+                </div>
+            </div>
+            <!-- page-6part-2 -->
+            <div class="flex flex-row ">
+                <div class="img-section  flex items-start sm:w-[136px] ">
+                    <img class="sm:w-[112px] sm:h-[158px]  " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/1B.png" />
+                </div>
+                <div class="pl-4">
+                    <h2 class="text-lg font-semibold pt-1">Save payment in the app</h2>
+                    <p class="pt-4 sm:w-[136px] md:w-[170px] lg:w-[220px]">Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order ahead or scan and pay at the register in one step.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- 2 star -->
+    <div class="2xl:flex 2xl:flex-row  2xl:justify-center 2xl:items-center pb-9 pt-12">
+        <div class=" pb-8 ">
+            <h4 class="font-bold text-lg xl:text-xl tracking-wide ">2<span class="text-black text-sm xl:text-2xl">★</span><span class="text-lg xl:text-2xl">per dollar</span></h4>
+            <p>Add funds in the app</p>
+        </div>
+        <div class="xl:flex xl:flex-row xl:justify-center">
+            <!-- page-6part-1 -->
+            <div class="flex flex-row">
+                <div class="img-section  flex items-start sm:w-[136px] ">
+                    <img class="sm:w-[112px] sm:h-[158px]  " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/2A.png" />
+                </div>
+                <div class="pl-4">
+                    <h2 class="text-lg font-semibold pt-1">Preload</h2>
+                    <p class="pt-4 sm:w-[136px] md:w-[170px] lg:w-[220px]">To save time and earn Stars twice as fast, add money to your digital Starbucks Card using any payment option. Scan and pay in one step or order ahead in the app.</p>
+                </div>
+            </div>
+            <!-- page-6part-2 -->
+            <div class="flex flex-row pt-9">
+                <div class="img-section  flex items-start sm:w-[136px] ">
+                    <img class="sm:w-[112px] sm:h-[158px]  " src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/2B.png" />
+                </div>
+                <div class="pl-4">
+                    <h2 class="text-lg font-semibold pt-1">Register your gift card</h2>
+                    <p class="pt-4 sm:w-[136px] md:w-[170px] lg:w-[220px]">Then use it to pay through the app. You can even consolidate balances from multiple cards in one place.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- page-8 -->
+<div class="py-8 px-10 bg-[#d4e9e2]  ">
+    <div class="flex flex-col justify-center items-center">
+        <h2 class="pt-3 font-semibold text-xl">Keep the Rewards Coming</h2>
+        <p class="pt-3  text-center text-lg">The Rewards don't stop at your morning coffee. Join Starbucks® Rewards and unlock perks from our partners, all while earning more Stars.</p>
+    </div>
+
+    <div class="flex flex-row xl:pt-5">
+    <!-- page-8-part-1 -->
+    <div class="py-8 my-5  xl:ml-1 xl:mr-6 ">
+        <div class="flex justify-center xl:flex-col items-center">
+            <img class="sm:w-[112px] xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/delta-skymiles.png" />
+            <div class="flex flex-col space-x-2 pl-4 xl:pt-6 ">
+                <div class="flex flex-row">
+                <a class="text-[#006241] sm:w-[154px] md:w-[162px]" href="#">Link your Delta SkyMiles® </a>
+                <svg  aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
+                    <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
+                </svg></div>
+                <p class="sm:w-[164px] md:w-[172px] lg:w-[240px]"> and Starbucks® Rewards accounts to earn miles on Starbucks Card reloads of $25 or more, plus Double Stars on travel days.</p>
+            </div>
+       </div>
+    </div>
+    <!-- page-8-part-2 -->
+    <div class="pb-8 xl:my-5 xl:ml-1 xl:mr-6 ">
+        <div class="flex justify-center xl:flex-col items-center">
+            <img class="sm:w-[112px]   xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/bank-of-america.png" />
+            <div class="flex flex-col space-x-2 pl-4 xl:pt-6">
+                <div class="flex flex-row">
+                <a class="text-[#006241] sm:w-[154px]" href="#">Link your Bank of America</a>
+                <svg aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
+                    <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
+                </svg></div>
+                <p class="sm:w-[164px]  md:w-[172px] lg:w-[240px]"> eligible card and Starbucks® Rewards account to earn 2% Cash Back and Bonus Stars on qualifying Starbucks in-app purchases.</p>
+            </div>
+       </div>
+    </div>
+    <!-- page-8-part-3 -->
+    <div class="py-3 xl:my-5 xl:ml-1 xl:mr-6 ">
+        <div class="flex justify-center xl:flex-col items-center">
+            <img class="sm:w-[112px]  xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loy…ty-partnerships/marriott-bonvoy/marriott-logo.png" />
+            <div class="flex flex-col space-x-2 pl-4 xl:pt-6">
+                <div class="flex flex-row">
+                <a class="text-[#006241] sm:w-[154px]" href="#">Link your Marriott Bonvoy® </a>
+                <svg  aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
+                    <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
+                </svg></div>
+                <p class="sm:w-[164px]  md:w-[172px] lg:w-[240px]">  and Starbucks® Rewards accounts to earn Double Stars during eligible stays, points during any Marriott Bonvoy Week and more.</p>
+            </div>
+       </div>
+    </div>
+</div>
+    <div class="flex justify-center items-center">
+    <div class="text-center border border-[#00754a] w-[213px] rounded-2xl h-[33px] bg-[#00754a]  ">
+        <a class="mb-2  font-semibold text-white"href="/account/create">join Starbucks®Rewards</a>
+    </div>
+</div>
 </div>
 </template>
 
