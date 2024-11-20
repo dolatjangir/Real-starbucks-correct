@@ -225,61 +225,63 @@
 
 </div>
 <!-- page-8 -->
-<div class="py-8 px-10 bg-[#d4e9e2]  ">
-    <div class="flex flex-col justify-center items-center">
+<div class="py-8 px-10 sm:bg-[#d4e9e2]  xl:bg-[url('https://www.starbucks.com/app-assets/844262945b2a8b8cfb29.png')] ">
+   <div class="bg-[#d4e9e2]">
+    <div class="flex flex-col justify-center items-center ">
         <h2 class="pt-3 font-semibold text-xl">Keep the Rewards Coming</h2>
         <p class="pt-3  text-center text-lg">The Rewards don't stop at your morning coffee. Join Starbucks® Rewards and unlock perks from our partners, all while earning more Stars.</p>
     </div>
 
-    <div class="flex flex-row xl:pt-5">
+    <div class="flex sm:flex-col xl:flex-row xl:justify-center xl:items-center xl:pt-5">
     <!-- page-8-part-1 -->
     <div class="py-8 my-5  xl:ml-1 xl:mr-6 ">
         <div class="flex justify-center xl:flex-col items-center">
-            <img class="sm:w-[112px] xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/delta-skymiles.png" />
-            <div class="flex flex-col space-x-2 pl-4 xl:pt-6 ">
+            <img class="sm:w-[112px] xl:w-[190px] 2xl:w-[220px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/delta-skymiles.png" />
+            <div class="flex flex-col space-x-2 pl-1 xl:pt-6 ">
                 <div class="flex flex-row">
                 <a class="text-[#006241] sm:w-[154px] md:w-[162px]" href="#">Link your Delta SkyMiles® </a>
                 <svg  aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
                     <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
                 </svg></div>
-                <p class="sm:w-[164px] md:w-[172px] lg:w-[240px]"> and Starbucks® Rewards accounts to earn miles on Starbucks Card reloads of $25 or more, plus Double Stars on travel days.</p>
+                <p class="sm:w-[164px] md:w-[172px] 2xl:w-[250px] lg:w-[190px]"> and Starbucks® Rewards accounts to earn miles on Starbucks Card reloads of $25 or more, plus Double Stars on travel days.</p>
             </div>
        </div>
     </div>
     <!-- page-8-part-2 -->
     <div class="pb-8 xl:my-5 xl:ml-1 xl:mr-6 ">
         <div class="flex justify-center xl:flex-col items-center">
-            <img class="sm:w-[112px]   xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/bank-of-america.png" />
-            <div class="flex flex-col space-x-2 pl-4 xl:pt-6">
+            <img class="sm:w-[112px]   xl:w-[190px] 2xl:w-[220px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loyalty-partnerships/bank-of-america.png" />
+            <div class="flex flex-col space-x-2 xl:pt-6">
                 <div class="flex flex-row">
                 <a class="text-[#006241] sm:w-[154px]" href="#">Link your Bank of America</a>
                 <svg aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
                     <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
                 </svg></div>
-                <p class="sm:w-[164px]  md:w-[172px] lg:w-[240px]"> eligible card and Starbucks® Rewards account to earn 2% Cash Back and Bonus Stars on qualifying Starbucks in-app purchases.</p>
+                <p class="sm:w-[164px]  md:w-[172px] 2xl:w-[250px] lg:w-[190px]"> eligible card and Starbucks® Rewards account to earn 2% Cash Back and Bonus Stars on qualifying Starbucks in-app purchases.</p>
             </div>
        </div>
     </div>
     <!-- page-8-part-3 -->
-    <div class="py-3 xl:my-5 xl:ml-1 xl:mr-6 ">
+    <div class="py-3  xl:ml-1 xl:mr-6 ">
         <div class="flex justify-center xl:flex-col items-center">
-            <img class="sm:w-[112px]  xl:w-[190px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loy…ty-partnerships/marriott-bonvoy/marriott-logo.png" />
+            <img class="sm:w-[112px]  xl:w-[190px] 2xl:w-[220px] xl:h-[84.4px] sm:h-[50px]" src="https://www.starbucks.com/weblx/images/rewards/loy…ty-partnerships/marriott-bonvoy/marriott-logo.png" />
             <div class="flex flex-col space-x-2 pl-4 xl:pt-6">
                 <div class="flex flex-row">
                 <a class="text-[#006241] sm:w-[154px]" href="#">Link your Marriott Bonvoy® </a>
                 <svg  aria-hidden="true" class="valign-middle text-[#006241]" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="width: 24px; height: 24px; overflow: visible; fill: currentcolor;">
                     <path d="M14.75 18H7.875C6.84 18 6 17.16 6 16.125V9.25c0-1.036.84-1.875 1.875-1.875h5.11c.276 0 .5.224.5.5s-.224.5-.5.5h-5.11c-.483 0-.875.392-.875.875v6.875c0 .483.392.875.875.875h6.875c.483 0 .875-.392.875-.875V11c0-.276.224-.5.5-.5s.5.224.5.5v5.125c0 1.035-.84 1.875-1.875 1.875zM14 6.5c0-.276.224-.5.5-.5h3c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5s-.5-.224-.5-.5V7.72l-4.66 4.74c-.19.196-.507.2-.704.005-.197-.193-.2-.51-.006-.707L16.307 7H14.5c-.276 0-.5-.224-.5-.5z"></path>
                 </svg></div>
-                <p class="sm:w-[164px]  md:w-[172px] lg:w-[240px]">  and Starbucks® Rewards accounts to earn Double Stars during eligible stays, points during any Marriott Bonvoy Week and more.</p>
+                <p class="sm:w-[164px]  md:w-[172px] lg:w-[190px] 2xl:w-[250px]">  and Starbucks® Rewards accounts to earn Double Stars during eligible stays, points during any Marriott Bonvoy Week and more.</p>
             </div>
        </div>
     </div>
 </div>
-    <div class="flex justify-center items-center">
+</div>
+    <div class="flex justify-center items-center bg-[#d4e9e2] pb-6">
     <div class="text-center border border-[#00754a] w-[213px] rounded-2xl h-[33px] bg-[#00754a]  ">
         <a class="mb-2  font-semibold text-white"href="/account/create">join Starbucks®Rewards</a>
     </div>
-</div>
+       </div>
 </div>
 </template>
 
