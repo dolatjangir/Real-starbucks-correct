@@ -1,20 +1,25 @@
+<style scoped>
+.rewards, .menu, .gift{
+    box-shadow: inset 0 -6px #008248
+}
+</style>
 <template>
-<div class=" flex items-center justify-between h-20 px-4 w-[screen]  xl:h-[98.9px]  border 2xl:py-0 2xl:px-8 py-4">
+<div class=" flex  justify-between items-center h-16 px-4 w-[screen]  xl:h-[98.9px]  border 2xl:py-0 2xl:px-10 ">
     <div class="left_header flex flex-row items-center 2xl:space-x-8 2xl:font-bold  ">
         <img class="sm:w-[30.9px] 2xl:w-[49.3px] xl:w-[49.3px] lg:w-[38.7px]" src="https://www.starbucks.in/assets/icon/logo.png" />
-        <button class="menu-button sm:invisible 2xl:visible hover:text-[#008248] h-[99px] tracking-wide transition-all" :class="isMenuBorder ==='menu' ? 'border-b-8 border-[#008248]':''" @click="setisMenuBorder('menu')">MENU</button>
-        <button class="rewards-button h-[99px] sm:invisible 2xl:visible tracking-wide transition-all hover:text-[#008248]" :class="isMenuBorder ==='rewards' ? 'border-b-8 border-[#008248]':''" @click="setisMenuBorder('rewards')">REWARDS</button>
-        <button class="sm:invisible 2xl:visible hover:text-[#008248] h-[99px] tracking-wide transition-all" :class="isMenuBorder ==='gift' ? 'border-b-8 border-[#008248]':''" @click="setisMenuBorder('gift')">GIFT CARDS</button>
+        <button class="menu-button sm:invisible 2xl:visible hover:text-[#008248] h-[99px] tracking-wide text-neutral-800 text-lg transition-all" :class="isMenuBorder ==='menu' ? 'menu':''" @click="setisMenuBorder('menu')">MENU</button>
+        <button class="rewards-button h-[99px] sm:invisible 2xl:visible tracking-wide transition-all text-lg text-neutral-800 hover:text-[#008248]" :class="isMenuBorder ==='rewards' ? ' rewards':''" @click="setisMenuBorder('rewards')">REWARDS</button>
+        <button class="sm:invisible 2xl:visible hover:text-[#008248] h-[99px] tracking-wide text-lg text-neutral-800 transition-all" :class="isMenuBorder ==='gift' ? 'gift':''" @click="setisMenuBorder('gift')">GIFT CARDS</button>
     </div>
-    <div class="hamburger 2xl:hidden text-xl"><i class="fa-solid fa-bars"></i></div>
+    <div class="hamburger mx-4 2xl:hidden text-xl"><i class="fa-solid fa-bars"></i></div>
     <div class="right  sm:hidden 2xl:block 2xl:font-bold flex 2xl:space-x-4">
-        <button class="2xl:pr-10 hover:text-[#008248]"><i class="fa-solid fa-location-dot"></i> Find Store</button>
-        <button class="sign-in border border-neutral-400 hover:bg-neutral-200 rounded-3xl px-4 py-2">Sign In</button>
-        <button class="join-now bg-black text-white rounded-3xl   hover:bg-[#000000b3]    px-4 py-2">Join Now</button>
+        <button class="2xl:pr-10   hover:text-[#008248]"><i class="text-xl fa-solid fa-location-dot"></i><span class="pl-2"> Find Store</span></button>
+        <button class="sign-in border border-neutral-400 hover:bg-neutral-200 rounded-3xl pt-[3px] pb-[7px] px-3">Sign In</button>
+        <button class="join-now bg-black text-white rounded-full   hover:bg-[#000000b3]    px-3 pt-[3px] pb-[7px]">Join Now</button>
     </div>
 </div>
 <!-- header-2 -->
-<div class="bg-[#1e3932] sticky top-0 text-[#f1f0f0] font-bold xl:pl-[99px] xl:pr-[24px] uppercase justify-between items-center h-[50px] text-s leading-5 flex sm:px-4">
+<div class="bg-[#1e3932] sticky top-0 text-[#f1f0f0] font-extrabold xl:pl-[109px] xl:pr-[24px] uppercase justify-between items-center h-[50px] text-s leading-5 flex sm:px-4">
     <h1 tabindex="-1" class="w-fit xl:text-lg ">Starbucks® Rewards</h1>
     <button class="sign-in border border-neutral-200 rounded-3xl px-4 py-1 xl:hidden text-center flex-shrink-0">Join in the app</button>
 </div>
@@ -24,11 +29,11 @@
     <div class="mx-[15px] px-[16px] py-8  ">
         <ul class="sm:text-center xl:text-start ">
             <li class="uppercase font-semibold text-2xl text-balance xl:text-4xl"> free coffee<br/> is a tap away</li>
-            <li class="pt-4 xl:text-xl">join now to start earning Rewards.</li>
-            <li class="pt-8 xl:visible sm:hidden"><a href="https://starbucks.app.link/VLa2I3inh9"><button class="border  w-[120.1px] h-[40px] text-center text-xl text-white rounded-full bg-[#006241] px-[7px] pb-1 font-bold">join in the app</button></a></li>
-            <li class="pt-8 xl:hidden"><a href="https://starbucks.app.link/VLa2I3inh9"><button class="border  w-[132.1px] h-[32px] text-center text-white text-xl rounded-full bg-[#006241] px-[7px] pb-1 font-bold">join now</button></a></li>
-            <li class="mt-3  xl:hidden "> <a href="https://www.starbucks.com/rewards/mobile-apps"><span class="text-xl font-light underline">join online</span></a></li>
-            <li class="mt-3 text-xl sm:hidden xl:visible">or<a href="https://www.starbucks.com/rewards/mobile-apps"><span class=" underline "> join in the app    </span></a>for the best experience</li>
+            <li class="pt-4 xl:text-xl font-semibold">join now to start earning Rewards.</li>
+            <li class="pt-8 xl:hidden sm:block"><a href="https://starbucks.app.link/VLa2I3inh9"><button class="border  w-[132.1px] h-[40px] text-center text-xs text-white rounded-full bg-[#006241] px-[7px] pb-1 font-bold">join in the app</button></a></li>
+            <li class="pt-8 xl:block sm:hidden "><a href="https://starbucks.app.link/VLa2I3inh9"><button class="border  w-[112.1px] h-[38px] text-center text-white text-xl rounded-full bg-[#006241] px-[7px] pb-1 font-semibold">join now</button></a></li>
+            <li class="mt-3  xl:hidden "> <a href="https://www.starbucks.com/rewards/mobile-apps"><span class="text-xl font-light  underline">join online</span></a></li>
+            <li class="mt-3 text-xl sm:hidden xl:block font-semibold">or<a href="https://www.starbucks.com/rewards/mobile-apps"><span class=" underline "> join in the app    </span></a>for the best experience</li>
         </ul>
 
     </div>
@@ -62,7 +67,7 @@
             </div>
             <div class="sm:pb-8 xl:flex xl:flex-col xl:items-center xl:justify-center">
                 <h3 class="text-lg xl:text-xl sm:pb-1 font-bold" tabindex="-1">Create an account</h3>
-                <p class="sm:pt-3 text-[#000000DE] text-wrap xl:text-balance xl:text-base font-semibold">
+                <p class="sm:pt-3 text-[#000000DE] text-wrap xl:w-[182.4px] 2xl:w-[248.5px] 3xl:w-[373.3px]  xl:text-base font-semibold">
                     <span>To get started, </span>
                     <a class="text-[#008248] underline" href="/account/create">join now</a>
                     <span>. You can also </span>
@@ -77,8 +82,8 @@
                 <img class="sm:w-12 sm:h-12 " src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-2@2x.jpg" />
             </div>
             <div class="sm:pb-8 xl:flex xl:flex-col xl:items-center xl:justify-center">
-                <h3 class="text-lg sm:pb-1 xl:text-xl font-bold" tabindex="-1">Order and pay how you’d like</h3>
-                <p class="sm:pt-3 text-[#000000DE] font-semibold xl:text-base text-wrap">
+                <h3 class="text-lg sm:pb-1 xl:text-xl font-bold xl:text-center" tabindex="-1">Order and pay how you’d like</h3>
+                <p class="sm:pt-3 text-[#000000DE] xl:w-[182.4px] 2xl:w-[248.5px] 3xl:w-[373.3px]  font-semibold xl:text-base text-wrap">
 
                     <span>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. </span>
                     <a class="text-[#008248] underline" href="#waystopay">Learn how</a>
@@ -91,8 +96,8 @@
                 <img class="sm:w-12 sm:h-12 " src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-3@2x.jpg" />
             </div>
             <div class="sm:pb-8 xl:flex xl:flex-col xl:items-center xl:justify-center">
-                <h3 class="text-lg sm:pb-1 xl:text-xl font-bold  " tabindex="-1">Earn Stars, get Rewards</h3>
-                <p class="sm:pt-3 text-[#000000DE] xl:text-base font-semibold text-wrap">
+                <h3 class="text-lg sm:pb-1 xl:text-xl font-bold text-center " tabindex="-1">Earn Stars, get Rewards</h3>
+                <p class="sm:pt-3 text-[#000000DE] xl:text-base xl:w-[182.4px] 2xl:w-[248.5px] 3xl:w-[373.3px]  font-semibold text-wrap">
                     <span> As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars! </span>
                 </p>
             </div>
@@ -101,7 +106,8 @@
     <!-- dj -->
 </div>
 <!-- part-5 -->
-<div class="part-5 bg-[#f1f8f6] py-8">
+ <div class="part-5 py-8">
+<div class=" bg-[#f1f8f6]">
     <div class="bg-[#f1f8f6] sm:pt-12 sm:pb-4">
         <h1 class="font-bold text-3xl text-center ">Get your favorites for free</h1>
     </div>
@@ -121,7 +127,7 @@
             <p class="text-center flex-grow md:text-left  xl:px-[16px]">Make your drink just right with an extra espresso shot or a dash of your favorite syrup.</p>
         </div>
     </div>
-</div>
+</div></div>
 <!-- page-6 -->
 <div class="py-8 xl:py-16 xl:px-6 px-4 w-screen">
     <div class="flex justify-center flex-col items-center">
@@ -380,10 +386,11 @@
 <hr/>
 <!-- page-11 -->
 <div class="pt-6 px-4 xl:px-6">
-    <div class="xl:flex xl:flex-row  xl:space-x-14">
+    <div class="xl:flex xl:flex-col 2xl:flex-row  2xl:space-x-14">
         <!-- about us -->
-        <div class="">
-            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" @click="toggleactiveSection('about')">About Us <span></span></h2>
+        <div class="flex flex-row justify-between"  @click="toggleactiveSection('about')">
+            <div class="">
+            <h2 class="text-lg font-semibold  py-2 sm:mb-2 cursor-pointer">About Us <span></span></h2>
             <ul v-if="activeSection=== 'about'" class="">
                 <li class="py-2 sm:mb-2 "> <a href="https://www.starbucks.com/about-us/">Our Company</a></li>
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/coffee/">Our Coffee</a></li>
@@ -394,10 +401,16 @@
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/contact/">Contact Us</a></li>
                 
             </ul>
+            </div>
+            <div class="pt-2 2xl:hidden">
+                <i v-if="activeSection === 'about'" class="fa-solid fa-angle-down"></i>
+                <i v-else class="fa-solid fa-angle-up"></i>
+            </div>
         </div>
          <!-- career -->
-         <div class="">
-            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" @click="toggleactiveSection('career')">Career <span></span></h2>
+         <div class=" flex flex-row justify-between"  @click="toggleactiveSection('career')">
+            <div class="">
+            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer">Career <span></span></h2>
             <ul v-if="activeSection === 'career'" class="">
                 <li class="py-2 sm:mb-2 "> <a href="https://www.starbucks.com/careers/working-at-starbucks/culture-and-values/">Culture and Values</a></li>
                 <li class="py-2 sm:mb-2 "><a href="https://about.starbucks.com/inclusion-diversity-belonging/">Inclusion, Diversity, & Belonging</a></li>
@@ -409,9 +422,15 @@
                 
             </ul>
         </div>
+        <div class="pt-2 2xl:hidden">
+                <i v-if="activeSection === 'career'" class="fa-solid fa-angle-down"></i>
+                <i v-else class="fa-solid fa-angle-up"></i>
+            </div>
+        </div>
         <!-- social impact -->
-        <div class="">
-            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" @click="toggleactiveSection('social')">Social Impact <span></span></h2>
+        <div class="flex flex-row justify-between"  @click="toggleactiveSection('social')">
+            <div class="">
+            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer">Social Impact <span></span></h2>
             <ul v-if="activeSection === 'social'" class="">
                 <li class="py-2 sm:mb-2 "> <a href="https://about.starbucks.com/communities/">Communities</a></li>
                 <li class="py-2 sm:mb-2 "><a href="https://about.starbucks.com/the-starbucks-foundation/">Starbucks Foundation</a></li>
@@ -419,9 +438,15 @@
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/responsibility/reporting-hub/">Environmental and Social Impact Reporting</a></li>                 
             </ul>
         </div>
+            <div class="pt-2 2xl:hidden">
+                <i v-if="activeSection === 'social'" class="fa-solid fa-angle-down"></i>
+                <i v-else class="fa-solid fa-angle-up"></i>
+            </div>
+        </div>
          <!-- For Business Partners -->
-         <div class="">
-            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" @click="toggleactiveSection('business')">For Business Partners<span></span></h2>
+         <div class="flex flex-row justify-between"  @click="toggleactiveSection('business')">
+            <div class="">
+            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer">For Business Partners<span></span></h2>
             <ul v-if="activeSection==='business'" class="">
                 <li class="py-2 sm:mb-2 "> <a href="https://www.starbucks.com/business/landlord-faq/">Landlord Support Center</a></li>
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/business/suppliers/">Suppliers</a></li>
@@ -429,9 +454,15 @@
                 <li class="py-2 sm:mb-2 "><a href="https://www.nestlecoffeepartnerssl.com/our-brands/we-proudly-serve-starbucks-coffee-program"> Office and Foodservice Coffee</a></li>                 
             </ul>
         </div>
+            <div class="pt-2 2xl:hidden">
+                <i v-if="activeSection === 'business'" class="fa-solid fa-angle-down"></i>
+                <i v-else class="fa-solid fa-angle-up"></i>
+            </div>
+        </div>
          <!-- Order and Pick Up -->
-         <div class="">
-            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" @click="toggleactiveSection('order')">Order and Pick Up<span></span></h2>
+         <div class="flex flex-row justify-between" @click="toggleactiveSection('order')">
+            <div class="">
+            <h2 class="text-lg font-semibold py-2 sm:mb-2 cursor-pointer" >Order and Pick Up<span></span></h2>
             <ul v-if="activeSection==='order'" class="">
                 <li class="py-2 sm:mb-2 "> <a href="https://www.starbucks.com/rewards/mobile-apps/">Order on the App</a></li>
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/menu">Order on the Web</a></li>
@@ -439,7 +470,12 @@
                 <li class="py-2 sm:mb-2 "><a href="https://www.starbucks.com/stores-and-ordering/">Order and Pick Up Options</a></li>  
                 <li class="py-2 sm:mb-2 "><a href="https://athome.starbucks.com/?utm_source=starbucks.com&utm_medium=referral&utm_campaign=footer">Explore and Find Coffee for Home</a></li>
                
-            </ul>
+            </ul></div>
+
+            <div class="pt-2 2xl:hidden">
+                <i v-if="activeSection === 'order'" class="fa-solid fa-angle-down"></i>
+                <i v-else class="fa-solid fa-angle-up"></i>
+            </div>
         </div>
     </div>
 </div>
