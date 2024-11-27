@@ -245,7 +245,7 @@
 
 </div>
 <!-- page-8 -->
- <div class="py-8 mb-8 px-8 xl:bg-[url('https://www.starbucks.com/app-assets/844262945b2a8b8cfb29.png')]">
+ <div class="py-8 mb-8 px-8 sm:bg-[#d4e9e2]  xl:bg-[url('https://www.starbucks.com/app-assets/844262945b2a8b8cfb29.png')]">
 <div class=" sm:bg-[#d4e9e2]   ">
     <div class="bg-[#d4e9e2]">
         <div class="flex flex-col justify-center items-center pt-10 ">
